@@ -15,8 +15,8 @@ function App() {
   return (
     <div className='app align-center'>
       <h1>This is my lazy loading example.</h1>
-      <span>This carousel has 15 items loaded from 5 to 5</span>
-      <span>It only loads  next 5 elements when reaching the 4th previous</span>
+      <span>This carousel has 15 items loaded 5 by 5</span>
+      <span>It only loads next 5 elements when reaching the 4th previous</span>
       <br />
       <Carousel totalItems={totalItems} getNumbers={getNumbers} />
     </div>
